@@ -1,0 +1,42 @@
+.consent-logs-container {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color-faint);
+}
+
+.logs-container {
+    padding: 1.5vh 1.4vw;
+}
+
+.consent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--primary-color-faint);
+    padding: 1.8vh 1.4vw;
+}
+
+.consent-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.date-filter-zone {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    width: 70%;
+    align-items: end;
+}
+
+.search-btn {
+    padding: 7px 25px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

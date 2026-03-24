@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": ["src", "jest.setup.js", "src/__tests__"]
+}

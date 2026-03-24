@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["standard", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "rules": {
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "camelcase": ["error", { "properties": "always" }],
+    "eqeqeq": ["error", "always"],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-closing-bracket-location": [
+      "error",
+      { "nonEmpty": "tag-aligned", "selfClosing": "tag-aligned" }
+    ],
+    "react/jsx-closing-tag-location": ["error", "tag-aligned"],
+    "react/jsx-curly-spacing": ["error", "never"],
+    "react/jsx-equals-spacing": ["error", "never"],
+    "no-trailing-spaces": ["error"],
+    "react/jsx-tag-spacing": ["error", {
+      "closingSlash": "never",
+      "beforeSelfClosing": "always",
+      "afterOpening": "never",
+      "beforeClosing": "never"
+    }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2021,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

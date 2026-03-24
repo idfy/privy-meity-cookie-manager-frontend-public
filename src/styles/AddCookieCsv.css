@@ -1,0 +1,239 @@
+.csv-wrapper {
+    width: 27.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.csv-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.4%;
+    color: #131A25;
+    margin-bottom: 0.375rem;
+    height: 1rem;
+}
+
+.csv-upload-container {
+    background-color: #F3F7FF;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.csv-upload-box {
+    width: 27.5rem;
+    min-height: 7.875rem;
+    padding: 0.5rem;
+    background-color: #F3F7FF;
+    border-radius: 8px;
+    margin-bottom: 0.375rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.csv-upload-box.has-file {
+    padding: 0.5rem !important;
+    justify-content: flex-start !important;
+    align-items: center;
+}
+
+.upload-dash-border {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.upload-dash-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 1px dashed #1766D6;
+    pointer-events: none;
+}
+
+.csv-frame {
+    position: absolute;
+    width: 52.5px;
+    height: 52.5px;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.csv-frame-icon {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 15.75px;
+    top: 15.75px;
+}
+
+.csv-upload-texts {
+    position: absolute;
+    left: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14.375rem;
+    height: 2.375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.csv-upload-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.4%;
+    margin: 0;
+    color: #131A25;
+}
+
+.csv-blue {
+    color: #1766D6;
+}
+
+.csv-upload-subtitle {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.4%;
+    margin: 0;
+    color: #7D8187;
+}
+
+.csv-file-display {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: #F3F7FF;
+    border-radius: 6px;
+    position: relative;
+    width: 100%;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem;
+}
+
+.csv-file-icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.csv-file-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.csv-file-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 140%;
+    color: #131A25;
+    margin: 0 0 0.25rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.csv-file-size {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: #7D8187;
+    margin: 0;
+}
+
+.csv-file-remove {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background-color 0.2s;
+    padding: 0;
+}
+
+.csv-file-remove:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.csv-file-remove img {
+    width: 24px;
+    height: 24px;
+}
+
+.csv-error {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: #CB7100;
+    margin-top: 0.375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.csv-error svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.csv-selected {
+    font-size: 0.75rem;
+    color: #131A25;
+    margin-top: 0.375rem;
+    display: none;
+}
+
+.csv-instructions {
+    width: 27.5rem;
+    height: 5.75rem;
+    background-color: #ED8E001A;
+    border: 1px solid #ED8E0033;
+    border-radius: 6px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.csv-instructions-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.4%;
+    margin: 0 0 0.375rem;
+    height: 1.125rem;
+    color: #131A25;
+}
+
+.csv-instructions-list {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.4%;
+    color: #131A25;
+    margin: 0;
+    padding-left: 1rem;
+    list-style-type: decimal;
+}
+
+.csv-link {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}

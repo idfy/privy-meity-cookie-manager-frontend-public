@@ -1,0 +1,23 @@
+# Build outputs
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Generated files
+coverage/
+static/
+
+# Config files
+public/env-config.js
+
+# Other generated assets
+*.min.js
+*.bundle.js
+
+# Ignoring SVGs
+src/assets/*.svg
+
+# Ignoring the SvgComponents file
+src/components/Common/SvgComponents.jsx

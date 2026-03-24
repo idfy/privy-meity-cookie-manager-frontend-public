@@ -1,0 +1,39 @@
+.scan-container-main {
+    height: 100vh;
+}
+
+.current-tab {
+    border-bottom: 2px solid #e7e8e9;
+    position: relative;
+    /* margin-top: 4rem; */
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.current-tab .active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.current-tab .element {
+    position: relative;
+    bottom: -2px;
+    /* width: 13%; */
+}
+
+.invisible {
+    display: none;
+}
+
+.scan-history-container {
+    border-radius: 12px;
+    border: 1px solid var(--primary-color-faint);
+}
+
+/* css for scan results page */
+.scan-card {
+    background-color: #fff;
+    border: 1px solid var(--primary-border-color);
+    font-size: 14px;
+    border-radius: 10px;
+}
